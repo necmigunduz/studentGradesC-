@@ -1,0 +1,14 @@
+/home/necmi/c#/Grades/bin/Debug/net8.0/Grades
+/home/necmi/c#/Grades/bin/Debug/net8.0/Grades.deps.json
+/home/necmi/c#/Grades/bin/Debug/net8.0/Grades.runtimeconfig.json
+/home/necmi/c#/Grades/bin/Debug/net8.0/Grades.dll
+/home/necmi/c#/Grades/bin/Debug/net8.0/Grades.pdb
+/home/necmi/c#/Grades/obj/Debug/net8.0/Grades.GeneratedMSBuildEditorConfig.editorconfig
+/home/necmi/c#/Grades/obj/Debug/net8.0/Grades.AssemblyInfoInputs.cache
+/home/necmi/c#/Grades/obj/Debug/net8.0/Grades.AssemblyInfo.cs
+/home/necmi/c#/Grades/obj/Debug/net8.0/Grades.csproj.CoreCompileInputs.cache
+/home/necmi/c#/Grades/obj/Debug/net8.0/Grades.dll
+/home/necmi/c#/Grades/obj/Debug/net8.0/refint/Grades.dll
+/home/necmi/c#/Grades/obj/Debug/net8.0/Grades.pdb
+/home/necmi/c#/Grades/obj/Debug/net8.0/Grades.genruntimeconfig.cache
+/home/necmi/c#/Grades/obj/Debug/net8.0/ref/Grades.dll
