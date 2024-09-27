@@ -98,14 +98,14 @@
 // };
 // Console.Write("\n");
 
-int currentAssignments = 5;
+// int currentAssignments = 5;
 
-int[] sophiaScores = new int[] { 90, 86, 87, 98, 100 };
-int[] andrewScores = new int[] { 92, 89, 81, 96, 90 };
-int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
-int[] loganScores = new int[] { 90, 95, 87, 88, 96 };
+// int[] sophiaScores = new int[] { 90, 86, 87, 98, 100 };
+// int[] andrewScores = new int[] { 92, 89, 81, 96, 90 };
+// int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
+// int[] loganScores = new int[] { 90, 95, 87, 88, 96 };
 
-string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
+// string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
 
 // foreach (string name in studentNames) {
 //     if (name == "Sophia") {
@@ -124,72 +124,117 @@ string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
 
 // Console.WriteLine("Press enter to continue!");
 // Console.ReadLine();
+// int[] studentScores = new int[10];
+// Console.WriteLine("Student\t\tGrade\tCurrent Student Letter Grade\n");
+// foreach (string name in studentNames) {
+//     string currentName = name;
+//     if (currentName == "Sophia") {
+//         studentScores = sophiaScores;
+//     }
+
+//     if (currentName == "Andrew") {
+//         studentScores = andrewScores;
+//     }
+
+//     if (currentName == "Emma") {
+//         studentScores = emmaScores;
+//     }
+
+//     if (currentName == "Logan") {
+//         studentScores = loganScores;
+//     }
+
+//     int sumAssignmentScores = 0;
+//     decimal currentStudentGrade = 0;
+//     string currentStudentLetterGrade = "";
+
+//     foreach (int score in studentScores) {
+//         sumAssignmentScores += score;
+//     }
+
+//     currentStudentGrade = (decimal) sumAssignmentScores / currentAssignments;
+//     if (currentStudentGrade >= 97)
+//         currentStudentLetterGrade = "A+";
+
+//     else if (currentStudentGrade >= 93)
+//         currentStudentLetterGrade = "A";
+
+//     else if (currentStudentGrade >= 90)
+//         currentStudentLetterGrade = "A-";
+
+//     else if (currentStudentGrade >= 87)
+//         currentStudentLetterGrade = "B+";
+
+//     else if (currentStudentGrade >= 83)
+//         currentStudentLetterGrade = "B";
+
+//     else if (currentStudentGrade >= 80)
+//         currentStudentLetterGrade = "B-";
+
+//     else if (currentStudentGrade >= 77)
+//         currentStudentLetterGrade = "C+";
+
+//     else if (currentStudentGrade >= 73)
+//         currentStudentLetterGrade = "C";
+
+//     else if (currentStudentGrade >= 70)
+//         currentStudentLetterGrade = "C-";
+
+//     else if (currentStudentGrade >= 67)
+//         currentStudentLetterGrade = "D+";
+
+//     else if (currentStudentGrade >= 63)
+//         currentStudentLetterGrade = "D";
+
+//     else if (currentStudentGrade >= 60)
+//         currentStudentLetterGrade = "D-";
+
+//     else
+//         currentStudentLetterGrade = "F";
+//     Console.WriteLine($"{currentName}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
+// }
+
+
+int currentAssignments = 5;
+
+int[] sophiaScores = new int[] { 90, 86, 87, 98, 100 };
+int[] andrewScores = new int[] { 92, 89, 81, 96, 90 };
+int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
+int[] loganScores = new int[] { 90, 95, 87, 88, 96 };
+
+
+string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
+
 int[] studentScores = new int[10];
-Console.WriteLine("Student\t\tGrade\tCurrent Student Letter Grade\n");
-foreach (string name in studentNames) {
-    string currentName = name;
-    if (currentName == "Sophia") {
+
+Console.WriteLine("Student\t\tGrade\n");
+
+foreach (string name in studentNames)
+{
+    string currentStudent = name;
+
+    if (currentStudent == "Sophia")
         studentScores = sophiaScores;
-    }
 
-    if (currentName == "Andrew") {
+    else if (currentStudent == "Andrew")
         studentScores = andrewScores;
-    }
 
-    if (currentName == "Emma") {
+    else if (currentStudent == "Emma")
         studentScores = emmaScores;
-    }
-    
-    if (currentName == "Logan") {
+
+    else if (currentStudent == "Logan")
         studentScores = loganScores;
-    }
 
     int sumAssignmentScores = 0;
-    decimal currentStudentGrade = 0;
-    string currentStudentLetterGrade = "";
 
-    foreach (int score in studentScores) {
+    decimal currentStudentGrade = 0;
+
+    foreach (int score in studentScores)
+    {
         sumAssignmentScores += score;
     }
 
-    currentStudentGrade = (decimal) sumAssignmentScores / currentAssignments;
-    if (currentStudentGrade >= 97)
-        currentStudentLetterGrade = "A+";
+    currentStudentGrade = (decimal)(sumAssignmentScores) / currentAssignments;
 
-    else if (currentStudentGrade >= 93)
-        currentStudentLetterGrade = "A";
-
-    else if (currentStudentGrade >= 90)
-        currentStudentLetterGrade = "A-";
-
-    else if (currentStudentGrade >= 87)
-        currentStudentLetterGrade = "B+";
-
-    else if (currentStudentGrade >= 83)
-        currentStudentLetterGrade = "B";
-
-    else if (currentStudentGrade >= 80)
-        currentStudentLetterGrade = "B-";
-
-    else if (currentStudentGrade >= 77)
-        currentStudentLetterGrade = "C+";
-
-    else if (currentStudentGrade >= 73)
-        currentStudentLetterGrade = "C";
-
-    else if (currentStudentGrade >= 70)
-        currentStudentLetterGrade = "C-";
-
-    else if (currentStudentGrade >= 67)
-        currentStudentLetterGrade = "D+";
-
-    else if (currentStudentGrade >= 63)
-        currentStudentLetterGrade = "D";
-
-    else if (currentStudentGrade >= 60)
-        currentStudentLetterGrade = "D-";
-
-    else
-        currentStudentLetterGrade = "F";
-    Console.WriteLine($"{currentName}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
+    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t?");
 }

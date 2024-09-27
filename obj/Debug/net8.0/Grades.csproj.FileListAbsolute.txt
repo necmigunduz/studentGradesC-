@@ -12,3 +12,4 @@
 /home/necmi/c#/Grades/obj/Debug/net8.0/Grades.pdb
 /home/necmi/c#/Grades/obj/Debug/net8.0/Grades.genruntimeconfig.cache
 /home/necmi/c#/Grades/obj/Debug/net8.0/ref/Grades.dll
+/home/necmi/c#/Grades/obj/Debug/net8.0/Grades.sourcelink.json
